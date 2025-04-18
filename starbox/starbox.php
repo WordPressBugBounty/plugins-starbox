@@ -1,6 +1,6 @@
 <?php defined( 'ABSPATH' ) || die( 'Cheatin\' uh?' );
 /*
-*  Copyright (c) 2013-2024, Squirrly Limited.
+*  Copyright (c) 2013-2025, Squirrly Limited.
 *  The copyrights to the software code in this file are licensed under the (revised) BSD open source license.
 *
 *  Plugin Name: StarBox
