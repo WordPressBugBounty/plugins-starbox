@@ -2,7 +2,7 @@
 Contributors: cifi, calinvingan, florinmuresan
 Tags: author,author box,users,multiple authors,author bio
 Requires at least: 4.6
-Tested up to: 6.7
+Tested up to: 6.8
 Requires PHP: 7.0
 Stable tag: trunk
 Donate link:  http://starbox.squirrly.co/starbox-the-author-box-for-humans/
@@ -112,6 +112,10 @@ Download it from the Wordpress directory and try it out. Having an author box af
 16. Author Box with Drop-Down Theme
 
 == Changelog ==
+= 3.5.4 =
+* Update the social sanitization
+* Update compatibility with WP 6.8
+
 = 3.5.3 =
 * Update the social URL validation
 * Change call to static in tools

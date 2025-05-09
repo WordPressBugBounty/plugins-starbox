@@ -116,7 +116,7 @@ class ABH_Core_UserSettings extends ABH_Classes_BlockController {
 				$settings['abh_youtube']    = ABH_CLasses_Tools::getValue( 'abh_youtube' );
 				$settings['abh_vimeo']      = ABH_CLasses_Tools::getValue( 'abh_vimeo' );
 
-				$urlregex = '/[^a-zA-Z\/:\?&.\-_]/';
+				$urlregex = '/[^1-9a-zA-Z\/:\?&.\-_]/';
 				$settings['abh_twitter'] = preg_replace($urlregex,'', $settings['abh_twitter']);
 				$settings['abh_facebook'] = preg_replace($urlregex,'', $settings['abh_facebook']);
 				$settings['abh_google'] = preg_replace($urlregex,'', $settings['abh_google']);
